@@ -54,7 +54,7 @@ function GlobalStyle() {
         <GlobalStyle />
         <Box
           styleSheet={{
-            display: 'flex', alignItems: 'start', justifyContent: 'flex-start',
+            display: 'flex', alignItems: 'center', justifyContent: 'flex-start',
             backgroundColor: appConfig.theme.colors.primary['100'],
             padding: '2rem 6rem',
             backgroundImage: 'url(https://www.nawpic.com/media/2020/demon-slayer-desktop-nawpic-2.jpg)',
