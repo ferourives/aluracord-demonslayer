@@ -72,7 +72,7 @@ function PaginaInicial() {
               marginBottom: '16px'
             }}
           >
-            {username.length > 0 && (
+            {username.length > 3 && (
               <Image
                 styleSheet={{
                   borderRadius: "50%",
