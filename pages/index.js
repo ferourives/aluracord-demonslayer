@@ -72,7 +72,7 @@ function PaginaInicial() {
               marginBottom: '16px'
             }}
           >
-            {username.length > 3 && (
+          
               <Image
                 styleSheet={{
                   borderRadius: "50%",
@@ -80,11 +80,11 @@ function PaginaInicial() {
                   width: "168px",
                   height: "168px",
                   objectFit: "cover",
+                  backgroundColor: '#000',
                 }}
-                src={`https://github.com/${username}.png`}
+                src={ (username.length > 3) ? `https://github.com/${username}.png` : 'https://avatarfiles.alphacoders.com/202/thumb-1920-202510.jpg'}
               />
-            )}
-
+            
             <Text
               variant="body4"
               styleSheet={{
