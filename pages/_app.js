@@ -9,6 +9,7 @@ function GlobalStyle() {
       }
       body {
         font-family: 'Open Sans', sans-serif;
+        background-color: #214c9a;
       }
       /* App fit Height */ 
       html, body, #__next {
