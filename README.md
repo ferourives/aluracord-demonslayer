@@ -1,9 +1,9 @@
 # aluracord-demonslayer
-Projeto de Chat criado com a imersão React com @alura @mariosouto @peas
+Chat project whith imersão React - @alura @mariosouto @peas
 
-Login: user do github
+Login: github user
 
-## Tecnologias
+## Technologies
 React JS
 
 Next JS
